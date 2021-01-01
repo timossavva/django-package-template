@@ -1,4 +1,6 @@
+# Only Python modules and packages are included in the package by default.
+# To include additional files, we’ll declare them here
+
 include README.rst
-recursive-include config_dyna_builder/static *
-recursive-include config_dyna_builder/templates *
-recursive-include docs *
+recursive-include my_django_app/static *
+recursive-include my_django_app/templates *
