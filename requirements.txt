@@ -1,0 +1,11 @@
+django
+Pillow
+reportlab
+gunicorn
+mysqlclient
+django-cleanup
+django-modeltranslation
+django-admin-sortable2
+django-import-export
+matplotlib
+scipy

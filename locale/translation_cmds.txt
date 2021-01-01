@@ -1,0 +1,18 @@
+Install on Windows:
+	1) Add to the PATH environment variable, the absolute path to the \gettext0.20.1-iconv1.16-static-64\bin
+
+Django. Make translations when translating fields on DB with the plugin:
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py update_translation_fields
+
+
+Django. Make translations for all templates and js:
+
+    1) pass the locale you need to create the translations for, as parameters to the command:
+        Example for Greek and German ->
+
+django-admin makemessages --locale=gr --locale=de
+django-admin makemessages --domain=djangojs --ignore=plugins/* --locale=gr --locale=de
+django-admin compilemessages
