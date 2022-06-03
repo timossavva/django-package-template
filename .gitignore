@@ -1,10 +1,9 @@
-# Project specific
+# Only for development.
+/tehni/local_settings.py
 /logs/
-/media/
-/static/
-
-# Idea
 /.idea/
+/media/
+.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -38,6 +37,7 @@ pip-delete-this-directory.txt
 .cache
 nosetests.xml
 coverage.xml
+htmlcov
 
 # Mr Developer
 .mr.developer.cfg
@@ -53,3 +53,4 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
