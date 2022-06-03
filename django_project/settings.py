@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     # Third party
     #
     # Mine
-    'core'
+    'my_django_app'
 ]
 
 MIDDLEWARE = [
