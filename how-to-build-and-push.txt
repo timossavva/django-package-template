@@ -12,7 +12,3 @@ twine upload --skip-existing dist/*
 
 # If you get the error that the package already exists:
 #    change your version in setup.py
-
-
-
-pip install E:\Projects\Programming\Python\Django\Projects\DVS\django_dyna_config_builder\dist\django-dynamic-configurator-builder-0.1.tar.gz
